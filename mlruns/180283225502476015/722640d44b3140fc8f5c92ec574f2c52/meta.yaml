@@ -1,0 +1,15 @@
+artifact_uri: /root/news_sentiment_project/mlruns/180283225502476015/722640d44b3140fc8f5c92ec574f2c52/artifacts
+end_time: 1744390758437
+entry_point_name: ''
+experiment_id: '180283225502476015'
+lifecycle_stage: active
+run_id: 722640d44b3140fc8f5c92ec574f2c52
+run_name: news_sentiment_model
+run_uuid: 722640d44b3140fc8f5c92ec574f2c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744390748425
+status: 4
+tags: []
+user_id: root
