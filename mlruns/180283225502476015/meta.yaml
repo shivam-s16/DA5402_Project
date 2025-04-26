@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 artifact_location: /root/news_sentiment_project/mlruns/180283225502476015
 creation_time: 1744369564851
 experiment_id: '180283225502476015'
 last_update_time: 1744369564851
 lifecycle_stage: active
 name: news_sentiment_analysis
+=======
+artifact_location: /root/news_sentiment_project/mlruns/180283225502476015
+creation_time: 1744369564851
+experiment_id: '180283225502476015'
+last_update_time: 1744369564851
+lifecycle_stage: active
+name: news_sentiment_analysis
+>>>>>>> 865e3dee350745261eab842079e5aca439e51963

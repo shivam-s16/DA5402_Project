@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 artifact_uri: /root/news_sentiment_project/mlruns/180283225502476015/b572058bfa2942e39cefb1fe3fb02cbf/artifacts
 end_time: 1744370715583
 entry_point_name: ''
@@ -13,3 +14,20 @@ start_time: 1744370707923
 status: 4
 tags: []
 user_id: root
+=======
+artifact_uri: /root/news_sentiment_project/mlruns/180283225502476015/b572058bfa2942e39cefb1fe3fb02cbf/artifacts
+end_time: 1744370715583
+entry_point_name: ''
+experiment_id: '180283225502476015'
+lifecycle_stage: active
+run_id: b572058bfa2942e39cefb1fe3fb02cbf
+run_name: news_sentiment_model
+run_uuid: b572058bfa2942e39cefb1fe3fb02cbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744370707923
+status: 4
+tags: []
+user_id: root
+>>>>>>> 865e3dee350745261eab842079e5aca439e51963
