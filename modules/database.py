@@ -46,6 +46,7 @@ def create_table():
                 article_time TIME,
                 sentiment_score FLOAT,
                 sentiment_label VARCHAR(10),
+                category TEXT[], 
                 scrape_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
@@ -86,8 +87,8 @@ def insert_data(headline, image_url, article_url, article_content, image_filenam
         cur.execute(f"""
             INSERT INTO {table_name} 
             (headline, image_url, article_url, article_content, image_filename, 
-             article_date, article_time, sentiment_score, sentiment_label)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) 
+             article_date, article_time, sentiment_score, sentiment_label, category)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s %s) 
             ON CONFLICT (headline) DO NOTHING
         """, (headline, image_url, article_url, article_content, image_filename, 
               article_date, article_time, sentiment_score, sentiment_label))
@@ -198,7 +199,7 @@ def get_recent_news(limit=25):
         cur.execute(f"""
             SELECT id, headline, image_url, article_url, article_content, 
                    image_filename, article_date, article_time, 
-                   sentiment_score, sentiment_label, scrape_timestamp
+                   sentiment_score, sentiment_label, scrape_timestamp,category
             FROM {table_name}
             ORDER BY scrape_timestamp DESC
             LIMIT %s
