@@ -1,0 +1,10 @@
+{
+    "train_accuracy": 0.9294081381011098,
+    "val_accuracy": 0.9088669950738916,
+    "val_f1": 0.7989130434782609,
+    "val_precision": 0.8909090909090909,
+    "val_recall": 0.7241379310344828,
+    "parameters": {
+        "model_type": "LogisticRegression"
+    }
+}
