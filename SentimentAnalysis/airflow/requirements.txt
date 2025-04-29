@@ -1,0 +1,5 @@
+apache-airflow==2.9.1
+psycopg2-binary
+requests
+beautifulsoup4
+sentence-transformers
